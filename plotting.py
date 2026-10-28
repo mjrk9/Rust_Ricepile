@@ -1,3 +1,5 @@
+#! python3
+
 import matplotlib.pyplot as plt 
 import pickle as pkl
 import numpy as np
@@ -5,7 +7,8 @@ from log_bin import logbin
 
 heights = []
 avalanches = []
-Ls = [8, 16, 32, 64, 128, 256, 512, 1024]
+# Ls = [8, 16, 32, 64, 128, 256, 512, 1024]
+Ls = [1024]
 
 # for i in range(len(Ls)):
 #     with open(f'heights_zeroth_{i}.bin', 'rb') as f:
